@@ -12,7 +12,7 @@ PreferredSizeWidget customAppbar(){
               "ABCD, New Delhi",
               style: TextStyle(color: Colors.black,fontSize: 18,fontWeight: FontWeight.w500),
             ),
-            Icon(Icons.arrow_drop_down, color: Colors.black),
+            Icon(Icons.expand_more, color: Colors.green),
           ],
         ),
         

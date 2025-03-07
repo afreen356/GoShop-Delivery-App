@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:machine_task/features/home/core/routes/routes.dart';
 import 'package:machine_task/features/home/data/api.dart';
 import 'package:machine_task/features/home/data/connection_service.dart';
 import 'package:machine_task/features/home/presentation/screen/bottom_nav.dart';
@@ -25,6 +26,8 @@ class MyApp extends StatelessWidget {
       ],
     
         child: MaterialApp(
+          // initialRoute: '/',
+          routes: Routes.routes,
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
           theme: ThemeData(
